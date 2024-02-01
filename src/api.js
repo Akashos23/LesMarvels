@@ -31,7 +31,7 @@ export const getDataThumbnail = async (resultat) => {
            let tabJSON = {
                name : resultat.data.results[i].name,
                description : resultat.data.results[i].description,
-               imageURL : resultat.data.results[i].thumbnail.path
+               imageURL : resultat.data.results[i].thumbnail.path.concat(".jpg")
            }
            tab[i] = tabJSON;
        }
