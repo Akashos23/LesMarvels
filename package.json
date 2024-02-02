@@ -15,6 +15,7 @@
     "@fastify/view": "^8.2.0",
     "crypto": "^1.0.1",
     "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.1",
     "fastify": "^4.26.0",
     "handlebars": "^4.7.8",
     "node-fetch": "^3.3.2"
